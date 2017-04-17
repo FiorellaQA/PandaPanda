@@ -1,0 +1,22 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+.navBar{
+	background-color: red;
+	display: flex;
+	flex-direction: row;
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.nav-text{
+	display: flex;
+	align-items: center;
+}
+a{
+	margin:10px;
+}
