@@ -19,4 +19,4 @@ Al hacerle click la foto debe eliminarse.
 
 * Al hacer click en el boton <kbd>Historia</kbd> el texto de la derecha debe desaparecer y si hago click nuevamente, debe reaparecer
 
-[Proyecto finalizado](url)
+[Proyecto finalizado](https://fiorellaqa.github.io/PandaPanda/)
