@@ -31,6 +31,7 @@ a{
 	width: 100%;
 }
 .imagenes img{
+	display: block;
 	margin:10px;
 	width: 250px;
 	height: 200px;
@@ -53,8 +54,38 @@ div.content{
 	margin-right:150px;
 	margin-left:150px;
 	display: flex;
-	justify-content: center;
+	align-items: row;
+	justify-content:space-between; 
 }
+#contentOrigen{
+	padding: 10px;
+
+}
+#contentHistoria{
+	padding: 10px;
+}
+.content-img{
+	position: relative;
+}
+span.close{
+	cursor: pointer;
+	margin-top: -220px;
+	position: absolute;
+	display: block;
+	background-color: yellow;
+	border-radius: 50%;
+	text-align: center;
+	padding: 2px;
+	width: 20px;
+	height: 20px;
+}
+div.show{
+	visibility: visible;
+}
+div.hidden{
+	visibility: hidden;
+}
+
 
 
 
